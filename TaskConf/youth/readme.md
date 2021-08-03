@@ -6,29 +6,16 @@
 
  [跳转至底部](#注意事项)  ----  [回到主页](https://github.com/Sunert/Scripts)
 
-### IOS配置教程
+## IOS配置教程
 ```
-#### Quantumult X:
+### Quantumult X:
    * [远程重写配置](https://raw.githubusercontent.com/llllcccjjj/ownusing/main/TaskConf/youth/qx_rewite.txt)
    
 ```
 [rewrite_remote]
 https://raw.githubusercontent.com/llllcccjjj/ownusing/main/TaskConf/youth/qx_rewite.txt
 ```
-   * 本地重写配置
-   
-```
-[rewrite_local]
-https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList url script-request-header https://raw.githubusercontent.com/llllcccjjj/ownusing/main/script/youth.js
-https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json url script-request-header https://raw.githubusercontent.com/llllcccjjj/ownusing/main/script/youth.js
-https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/llllcccjjj/ownusing/main/script/youth.js
-https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json url script-request-body https://raw.githubusercontent.com/llllcccjjj/ownusing/main/script/youth.js
-```
-   * 本地任务配置
-   
-```
-[task_local]
-1 */5 * * * https://raw.githubusercontent.com/llllcccjjj/ownusing/main/script/youth.js, enabled=true, tag=中青看点
+ 
 ```
 ###  获取Cookie方法
   * 打开极速版APP，进去我的"任务中心"，提示获取Cookie
